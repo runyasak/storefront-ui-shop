@@ -9,6 +9,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.6",
+    "@storefront-ui/vue": "^2.1.0",
     "nuxt": "^3.3.3"
   }
 }
