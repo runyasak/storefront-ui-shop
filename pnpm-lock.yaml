@@ -2,8 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxtjs/tailwindcss': ^6.6.6
+  '@storefront-ui/typography': ^2.1.0
   '@storefront-ui/vue': ^2.1.0
   nuxt: ^3.3.3
+
+dependencies:
+  '@storefront-ui/typography': 2.1.0
 
 devDependencies:
   '@nuxtjs/tailwindcss': 6.6.6
@@ -1076,6 +1080,12 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dev: true
+
+  /@storefront-ui/typography/2.1.0:
+    resolution: {integrity: sha512-07weWuXjsHrPHlya/3kSXwQ3BFcK4bc8QzClttnFDpTR7xwA0NCrEsOjoDGoVFh/yMPjrWf4n+5LtoUg6VavqA==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
+    dev: false
 
   /@storefront-ui/vue/2.1.0:
     resolution: {integrity: sha512-OuAP67vMDQV5xLDPAHXhEbijripwrqrZqNj1BMMu+CsVokoA85JTB6abs9IOhwGZzaKaYb9qIH76wgPZ+s6giA==}
